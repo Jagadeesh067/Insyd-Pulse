@@ -1,15 +1,7 @@
-import Navigation from "@/components/Navigation";
-import HeroSection from "@/components/HeroSection";
-import FeatureGrid from "@/components/FeatureGrid";
+import { Dashboard } from "@/components/Dashboard";
 
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <HeroSection />
-      <FeatureGrid />
-    </div>
-  );
+  return <Dashboard />;
 };
 
 export default Index;
